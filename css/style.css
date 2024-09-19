@@ -41,12 +41,120 @@ h1, h2 {
     color: #101010;
 }
 
-p {
-    margin-bottom: 0.5rem;
+.experience {
+    margin-bottom: 40px;
 }
+
+.experience-header {
+    display: flex;
+    justify-content: space-between; /* Alinha o h3 e o logo nos extremos */
+    align-items: center; /* Alinha verticalmente o logo com o título */
+}
+
+.company-logo {
+    width: 115px; /* Tamanho reduzido do logo */
+    height: auto; /* Mantém a proporção da imagem */
+    background-color: green; /* Fundo preto */
+    padding: 10px; /* Adiciona espaço ao redor da imagem */
+    border-radius: 15px; /* Bordas arredondadas */
+    position: absolute; /* Posiciona o logo de forma absoluta */
+    margin-top: 37px;
+    margin-left: 550px;
+}
+
+.company-logo1 {
+    width: 130px; /* Tamanho reduzido do logo */
+    height: auto; /* Mantém a proporção da imagem */
+    padding: 10px; /* Adiciona espaço ao redor da imagem */
+    border-radius: 15px; /* Bordas arredondadas */
+    position: absolute; /* Posiciona o logo de forma absoluta */
+    margin-top: 10x;
+    margin-left: 550px;
+}
+
+.company-logo2 {
+    width: 130px; /* Tamanho reduzido do logo */
+    height: auto; /* Mantém a proporção da imagem */
+    background-color: black;
+    padding: 10px; /* Adiciona espaço ao redor da imagem */
+    border-radius: 15px; /* Bordas arredondadas */
+    position: absolute; /* Posiciona o logo de forma absoluta */
+    margin-top: 30px;
+    margin-left: 540px;
+}
+
+.company-logo3 {
+    width: 130px; /* Tamanho reduzido do logo */
+    height: auto; /* Mantém a proporção da imagem */
+    background-color: black;
+    padding: 10px; /* Adiciona espaço ao redor da imagem */
+    border-radius: 15px; /* Bordas arredondadas */
+    position: absolute; /* Posiciona o logo de forma absoluta */
+    margin-top: 10x;
+    margin-left: 540px;
+}
+
+.company-logo4 {
+    width: 130px; /* Tamanho reduzido do logo */
+    height: auto; /* Mantém a proporção da imagem */
+    padding: 10px; /* Adiciona espaço ao redor da imagem */
+    border-radius: 15px; /* Bordas arredondadas */
+    position: absolute; /* Posiciona o logo de forma absoluta */
+    margin-top: 30px;
+    margin-left: 540px;
+}
+
+.company-logo5 {
+    width: 130px; /* Tamanho reduzido do logo */
+    height: auto; /* Mantém a proporção da imagem */
+    padding: 10px; /* Adiciona espaço ao redor da imagem */
+    border-radius: 15px; /* Bordas arredondadas */
+    position: absolute; /* Posiciona o logo de forma absoluta */
+    margin-top: 30px;
+    margin-left: 540px;
+}
+
+.company-logo6 {
+    width: 130px; /* Tamanho reduzido do logo */
+    height: auto; /* Mantém a proporção da imagem */
+    padding: 10px; /* Adiciona espaço ao redor da imagem */
+    border-radius: 15px; /* Bordas arredondadas */
+    position: absolute; /* Posiciona o logo de forma absoluta */
+    margin-top: 30px;
+    margin-left: 540px;
+}
+
+.experience-item {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.date {
+    font-weight: bold;
+    color: #555;
+}
+
+p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.highlight {
+    font-weight: bold;
+    font-style: italic;
+    color: #333;
+}
+
 
 .experience-item, .education-item, .project-item {
     margin-bottom: 1.5rem;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-between; /* Alinha as duas colunas com espaço entre elas */
 }
 
 .skills ul {
@@ -55,6 +163,8 @@ p {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
+    list-style: none; /* Remove as bolinhas das listas */
+    padding-left: 0;  /* Remove o espaçamento padrão à esquerda */
 }
 
 .skills ul li {
@@ -62,6 +172,14 @@ p {
     display: flex;
     align-items: center;
     gap: 0.5rem;
+}
+
+.skills aside {
+    width: 45%; /* Define a largura de cada coluna */
+}
+
+.skills h2, .skills h1 {
+    margin-bottom: 10px;
 }
 
 .contact a {
