@@ -51,6 +51,17 @@ h1, h2 {
     align-items: center; /* Alinha verticalmente o logo com o título */
 }
 
+.company-logo7 {
+    width: 115px; /* Tamanho reduzido do logo */
+    height: auto; /* Mantém a proporção da imagem */
+    background-color: green; /* Fundo preto */
+    padding: 10px; /* Adiciona espaço ao redor da imagem */
+    border-radius: 15px; /* Bordas arredondadas */
+    position: absolute; /* Posiciona o logo de forma absoluta */
+    margin-top: -28px;
+    margin-left: 550px;
+}
+
 .company-logo {
     width: 115px; /* Tamanho reduzido do logo */
     height: auto; /* Mantém a proporção da imagem */
